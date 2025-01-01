@@ -12,7 +12,7 @@
   <script>window.REIMU_CONFIG = {};window.REIMU_CONFIG.icon_font = '4552607_tq6stt6tcg';window.REIMU_CONFIG.clipboard_tips = {"success":"复制成功(*^▽^*)","fail":"复制失败 (ﾟ⊿ﾟ)ﾂ","copyright":{"enable":true,"count":50,"content":"本文版权：本博客所有文章除特别声明外，均采用 BY-NC-SA 许可协议。转载请注明出处！"}};window.REIMU_CONFIG.outdate = {"enable":true,"daysAgo":180,"message":"本文最后更新于 {time}，请注意文中内容可能已经发生变化。"};window.REIMU_CONFIG.code_block = {"expand":true};</script>
   
   <title>
-    Hello World |
+    牛客练习赛126C |
     
     BravBeter&#39;s Blog
   </title>
@@ -27,15 +27,15 @@
 
   
   
-    <meta name="description" content="Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick">
+    <meta name="description" content="原题链接 条件：注意到：随着子数组长度的增加，s(min)即子数组最小值会不变或者减小。可以用反证法证明这一    点，此处略。这个性质意味着如果有长度为L1的子数组最小值大于val，那么我们一定可以找到任意    的长度为L （L &lt;&#x3D; L1）且最小值大于val的子数组。 思路：我们不是直接求出对于任一长度为L的子数组的最大min(s),而是对于每一个nums[i]，以下标i开">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Hello World">
-<meta property="og:url" content="http://www.bravebeter.com/2025/01/01/hello-world/index.html">
+<meta property="og:title" content="牛客练习赛126C">
+<meta property="og:url" content="http://www.bravebeter.com/2025/01/01/%E7%89%9B%E5%AE%A2%E7%BB%83%E4%B9%A0%E8%B5%9B126C/index.html">
 <meta property="og:site_name" content="BravBeter&#39;s Blog">
-<meta property="og:description" content="Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick">
+<meta property="og:description" content="原题链接 条件：注意到：随着子数组长度的增加，s(min)即子数组最小值会不变或者减小。可以用反证法证明这一    点，此处略。这个性质意味着如果有长度为L1的子数组最小值大于val，那么我们一定可以找到任意    的长度为L （L &lt;&#x3D; L1）且最小值大于val的子数组。 思路：我们不是直接求出对于任一长度为L的子数组的最大min(s),而是对于每一个nums[i]，以下标i开">
 <meta property="og:locale" content="en_US">
-<meta property="article:published_time" content="2025-01-01T06:22:43.724Z">
-<meta property="article:modified_time" content="2025-01-01T15:46:14.541Z">
+<meta property="article:published_time" content="2025-01-01T12:12:33.000Z">
+<meta property="article:modified_time" content="2025-01-01T15:44:25.455Z">
 <meta property="article:author" content="BraveBeter">
 <meta property="article:tag" content="create something interesting">
 <meta name="twitter:card" content="summary">
@@ -162,7 +162,7 @@
 <header id="header">
   
     <picture></picture>
-    <img fetchpriority="high" src="/images/sky.webp" alt="Hello World">
+    <img fetchpriority="high" src="/images/windows.webp" alt="牛客练习赛126C">
   
   <div id="header-outer">
     <div id="header-title">
@@ -170,7 +170,7 @@
         
         
           <a href="/" id="logo">
-            <h1 data-aos="slide-up">Hello World</h1>
+            <h1 data-aos="slide-up">牛客练习赛126C</h1>
           </a>
         
       
@@ -197,7 +197,7 @@
   <h3 class="toc-title">Contents</h3>
   <div class="sidebar-toc-wrapper toc-div-class" >
       
-        <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#Quick-Start"><span class="toc-number">1.</span> <span class="toc-text">Quick Start</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#Create-a-new-post"><span class="toc-number">1.1.</span> <span class="toc-text">Create a new post</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Run-server"><span class="toc-number">1.2.</span> <span class="toc-text">Run server</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Generate-static-files"><span class="toc-number">1.3.</span> <span class="toc-text">Generate static files</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Deploy-to-remote-sites"><span class="toc-number">1.4.</span> <span class="toc-text">Deploy to remote sites</span></a></li></ol></li></ol>
+        <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#%E5%8E%9F%E9%A2%98%E9%93%BE%E6%8E%A5"><span class="toc-number">1.</span> <span class="toc-text"> 原题链接 </span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E6%9D%A1%E4%BB%B6%EF%BC%9A"><span class="toc-number">2.</span> <span class="toc-text">条件：</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E6%80%9D%E8%B7%AF%EF%BC%9A"><span class="toc-number">3.</span> <span class="toc-text">思路：</span></a></li></ol>
       
   </div>
 </div>
@@ -285,12 +285,12 @@
   </div>
 </aside>
 
-          <section id="main"><article id="post-hello-world" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
+          <section id="main"><article id="post-牛客练习赛126C" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
   <div class="article-inner" data-aos="fade-up">
     <div class="article-meta">
       <div class="article-date">
-  <a href="/2025/01/01/hello-world/?" class="article-date-link" data-aos="zoom-in">
-    <time datetime="2025-01-01T06:22:43.724Z" itemprop="datePublished">2025-01-01</time>
+  <a href="/2025/01/01/%E7%89%9B%E5%AE%A2%E7%BB%83%E4%B9%A0%E8%B5%9B126C/?" class="article-date-link" data-aos="zoom-in">
+    <time datetime="2025-01-01T12:12:33.000Z" itemprop="datePublished">2025-01-01</time>
     <time style="display: none;" id="post-update-time">2025-01-01</time>
   </a>
 </div>
@@ -306,19 +306,9 @@
         <blockquote id="outdate-blockquote" style="display: none;"><p></p></blockquote>
       
       
-        <p>Welcome to <a target="_blank" rel="noopener" href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a target="_blank" rel="noopener" href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a target="_blank" rel="noopener" href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a target="_blank" rel="noopener" href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
+        <h1 id="原题链接"><a href="#原题链接" class="headerlink" title=" 原题链接 "></a><a target="_blank" rel="noopener" href="https://ac.nowcoder.com/acm/contest/84527/C"> 原题链接 </a></h1><h1 id="条件："><a href="#条件：" class="headerlink" title="条件："></a>条件：</h1><p>注意到：随着子数组长度的增加，s(min)即子数组最小值会不变或者减小。可以用反证法证明这一<br>    点，此处略。这个性质意味着如果有长度为L1的子数组最小值大于val，那么我们一定可以找到任意<br>    的长度为L （L &lt;&#x3D; L1）且最小值大于val的子数组。</p>
+<h1 id="思路："><a href="#思路：" class="headerlink" title="思路："></a>思路：</h1><p>我们不是直接求出对于任一长度为L的子数组的最大min(s),而是对于每一个nums[i]，以下标i开始往两边寻找，能维持最小值为nums[i]的最大子数组长度。这个可以通过单调栈来处理,寻找对于nums[i]左右两边第一个小于nums[i]的数记录其下标，然后求出对于每个i所能维持的最大长度存入rec[i]中。<br>在求出这一步之后，还要做一个简单处理，就是改变rec[i]的含义，我们用rec[i]表示所形成子数组大于等于nums[i]的最大长度。<br>之后考虑如何回答询问，对于val , mn, mx 这样一组问询，我们首先查找第一个大于val的nums[i]，如果没有比val大的数，回答否,如果有，根据rec[i]的含义，直接判断rec[i] 是否不小于mn,是则可以找到一个长度大于mn且min(s)大于val的子数组，我们预先将nums[i] 和下标i放进pair里，然后排序,所以回答的时候二分查找即可。</p>
+<figure class="highlight plaintext"><figcaption><span><bits/stdc++.h></span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br><span class="line">69</span><br><span class="line">70</span><br><span class="line">71</span><br><span class="line">72</span><br><span class="line">73</span><br><span class="line">74</span><br><span class="line">75</span><br><span class="line">76</span><br><span class="line">77</span><br><span class="line">78</span><br><span class="line">79</span><br><span class="line">80</span><br><span class="line">81</span><br><span class="line">82</span><br><span class="line">83</span><br><span class="line">84</span><br><span class="line">85</span><br><span class="line">86</span><br><span class="line">87</span><br><span class="line">88</span><br><span class="line">89</span><br><span class="line">90</span><br><span class="line">91</span><br><span class="line">92</span><br><span class="line">93</span><br><span class="line">94</span><br><span class="line">95</span><br></pre></td><td class="code"><pre><span class="line">using i64 = long long;</span><br><span class="line">using pt = std::pair&lt;int, int&gt;;</span><br><span class="line">constexpr int MAXN = 1e6 + 10;</span><br><span class="line">int nums[MAXN], f1[MAXN], f2[MAXN], rec[MAXN];</span><br><span class="line">pt arr[MAXN];</span><br><span class="line"></span><br><span class="line">void solve() </span><br><span class="line">&#123;   </span><br><span class="line">    int n;</span><br><span class="line">    std::cin &gt;&gt; n;</span><br><span class="line">    for(int i = 1; i &lt;= n; i++)</span><br><span class="line">    &#123;</span><br><span class="line">        std::cin &gt;&gt; nums[i];</span><br><span class="line">        arr[i].first = nums[i];</span><br><span class="line">        arr[i].second = i;</span><br><span class="line">        f1[i] = f2[i] = -1;</span><br><span class="line">        rec[i] = 1;</span><br><span class="line">    &#125;</span><br><span class="line">    std::sort(arr + 1, arr + n + 1);</span><br><span class="line">    </span><br><span class="line">    std::stack&lt;int&gt; st;</span><br><span class="line">    //右边第一个比我小的下标</span><br><span class="line">    for(int i = 1; i &lt;= n; i++)</span><br><span class="line">    &#123;</span><br><span class="line">        while(st.size() &amp;&amp; nums[st.top()] &gt; nums[i])</span><br><span class="line">        &#123;</span><br><span class="line">            int id = st.top();</span><br><span class="line">            f2[id] = i;</span><br><span class="line">            st.pop();</span><br><span class="line">        &#125;</span><br><span class="line">        st.push(i);</span><br><span class="line">    &#125;</span><br><span class="line">    while(st.size()) st.pop();</span><br><span class="line">    //左边第一个比我小的下标</span><br><span class="line">    for(int i = n; i &gt;= 1; i--)</span><br><span class="line">    &#123;</span><br><span class="line">        while(st.size() &amp;&amp; nums[st.top()] &gt; nums[i])</span><br><span class="line">        &#123;</span><br><span class="line">            int id = st.top();</span><br><span class="line">            f1[id] = i;</span><br><span class="line">            st.pop();</span><br><span class="line">        &#125;</span><br><span class="line">        st.push(i);</span><br><span class="line">    &#125;</span><br><span class="line">    //对于下标i，rec[i]记录他可以形成的以nums[i]为最小值的最长子数组长度</span><br><span class="line">    for(int i = 1; i &lt;= n; i++)</span><br><span class="line">    &#123;</span><br><span class="line">        int l = f1[i] == -1 ? (i - 1) : (i - f1[i] - 1);</span><br><span class="line">        int r = f2[i] == -1 ? (n - i) : (f2[i] - i - 1);</span><br><span class="line">        rec[i] = l + r + 1;</span><br><span class="line">    &#125;</span><br><span class="line">    for(int i = n - 1; i &gt;= 1; i--)</span><br><span class="line">    &#123;</span><br><span class="line">        int id1 = arr[i].second, id2 = arr[i + 1].second;</span><br><span class="line">        rec[id1] = std::max(rec[id1], rec[id2]);</span><br><span class="line">    &#125;</span><br><span class="line">    int m, val, mx, mn;</span><br><span class="line">    std::cin &gt;&gt; m;</span><br><span class="line">    while(m--)</span><br><span class="line">    &#123;</span><br><span class="line">        std::cin &gt;&gt; val &gt;&gt; mn &gt;&gt; mx;</span><br><span class="line">        int l = 0, r = n + 1;</span><br><span class="line">        while(l + 1 != r)</span><br><span class="line">        &#123;</span><br><span class="line">            int mid = l + ((r - l) &gt;&gt; 1);</span><br><span class="line">            if(arr[mid].first &lt; val)</span><br><span class="line">                l = mid;</span><br><span class="line">            else</span><br><span class="line">                r = mid;</span><br><span class="line">        &#125;</span><br><span class="line">        </span><br><span class="line">        if(r == n + 1 || rec[arr[r].second] &lt; mn)</span><br><span class="line">        &#123;</span><br><span class="line">            std::cout &lt;&lt; &quot;No\n&quot;;</span><br><span class="line">        &#125;</span><br><span class="line">        else</span><br><span class="line">        &#123;</span><br><span class="line">            std::cout &lt;&lt; &quot;Yes\n&quot;;</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">signed main() </span><br><span class="line">&#123;</span><br><span class="line">    std::ios::sync_with_stdio(false);</span><br><span class="line">    std::cin.tie(0), std::cout.tie(0);</span><br><span class="line">    int t = 1;</span><br><span class="line">    //std::cin &gt;&gt; t;</span><br><span class="line">    while (t--)</span><br><span class="line">    &#123;   </span><br><span class="line">        solve();</span><br><span class="line">        std::cout &lt;&lt; &#x27;\n&#x27;;</span><br><span class="line">    &#125;</span><br><span class="line">    return 0;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 
       
     </div>
@@ -326,10 +316,10 @@
       
         <blockquote class="article-copyright">
     <p><strong>本文作者：</strong>BraveBeter @ BravBeter's Blog</p>
-    <p><strong>本文链接：</strong><a href="http://www.bravebeter.com/2025/01/01/hello-world/">http://www.bravebeter.com/2025/01/01/hello-world/</a></p>
-    <p><strong>本文标题：</strong>Hello World</p>
-    <p><strong>本文发布时间：</strong>2025-01-01 14:22:43</p>
-    <p><strong>本文修改时间：</strong>2025-01-01 23:46:14</p>
+    <p><strong>本文链接：</strong><a href="http://www.bravebeter.com/2025/01/01/%E7%89%9B%E5%AE%A2%E7%BB%83%E4%B9%A0%E8%B5%9B126C/">http://www.bravebeter.com/2025/01/01/%E7%89%9B%E5%AE%A2%E7%BB%83%E4%B9%A0%E8%B5%9B126C/</a></p>
+    <p><strong>本文标题：</strong>牛客练习赛126C</p>
+    <p><strong>本文发布时间：</strong>2025-01-01 20:12:33</p>
+    <p><strong>本文修改时间：</strong>2025-01-01 23:44:25</p>
     <p><strong>本文版权：</strong>本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh" rel="noopener external nofollow noreferrer" target="_blank"><span class="icon-creative-commons"></span>BY-NC-SA</a> 许可协议。转载请注明出处！</p>
     <span class="icon-creative-commons article-copyright-bg"></span>
   </blockquote>
@@ -357,19 +347,19 @@
   
   <nav id="article-nav" data-aos="fade-up">
     
-      <div class="article-nav-link-wrap article-nav-link-left">
-        
-          <img data-src="/images/windows.webp" data-sizes="auto" alt="牛客练习赛126C" class="lazyload">
-        
-        <a href="/2025/01/01/%E7%89%9B%E5%AE%A2%E7%BB%83%E4%B9%A0%E8%B5%9B126C/?"></a>
-        <div class="article-nav-caption">Newer</div>
-        <h3 class="article-nav-title">
-          
-            牛客练习赛126C
-          
-        </h3>
-      </div>
     
+    <div class="article-nav-link-wrap article-nav-link-right">
+      
+        <img data-src="/images/sky.webp" data-sizes="auto" alt="Hello World" class="lazyload">
+      
+      <a href="/2025/01/01/hello-world/?"></a>
+      <div class="article-nav-caption">Older</div>
+      <h3 class="article-nav-title">
+        
+          Hello World
+        
+      </h3>
+    </div>
     
   </nav>
 
@@ -441,7 +431,7 @@
   <h3 class="toc-title">Contents</h3>
   <div class="sidebar-toc-wrapper toc-div-class" >
       
-        <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#Quick-Start"><span class="toc-number">1.</span> <span class="toc-text">Quick Start</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#Create-a-new-post"><span class="toc-number">1.1.</span> <span class="toc-text">Create a new post</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Run-server"><span class="toc-number">1.2.</span> <span class="toc-text">Run server</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Generate-static-files"><span class="toc-number">1.3.</span> <span class="toc-text">Generate static files</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Deploy-to-remote-sites"><span class="toc-number">1.4.</span> <span class="toc-text">Deploy to remote sites</span></a></li></ol></li></ol>
+        <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#%E5%8E%9F%E9%A2%98%E9%93%BE%E6%8E%A5"><span class="toc-number">1.</span> <span class="toc-text"> 原题链接 </span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E6%9D%A1%E4%BB%B6%EF%BC%9A"><span class="toc-number">2.</span> <span class="toc-text">条件：</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E6%80%9D%E8%B7%AF%EF%BC%9A"><span class="toc-number">3.</span> <span class="toc-text">思路：</span></a></li></ol>
       
   </div>
 </div>
