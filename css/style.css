@@ -1,12 +1,12 @@
 :root {
-  --red-0: #f00;
-  --red-1: #ff5252;
-  --red-2: #ff7c7c;
-  --red-3: #ffafaf;
-  --red-4: #ffd0d0;
-  --red-5: #ffe4e4;
-  --red-5-5: #ffecec;
-  --red-6: #fff3f3;
+  --red-0: #c8580d;
+  --red-1: #dd7724;
+  --red-2: #920f0f;
+  --red-3: #eeffaf;
+  --red-4: #3d075b;
+  --red-5: #9e1e07;
+  --red-5-5: #e8930c;
+  --red-6: #120a40;
   --grey-9: #999;
   --grey-7: #777;
   --color-archive-year: #000;
@@ -355,9 +355,6 @@ body [data-aos='zoom-in'] {
 }
 .icon-github:before {
   content: "\e619";
-}
-.icon-email:before {
-  content: "\e63c";
 }
 .sidebar-btn-wrapper .sidebar-toc-btn:before {
   font-family: "iconfont";
@@ -2681,9 +2678,6 @@ pre .javascript .function {
 }
 .sidebar-social-icon:hover {
   transform: scale(1.2);
-}
-.icon-email {
-  color: var(--red-2);
 }
 .icon-github {
   color: #191717;

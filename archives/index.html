@@ -1,18 +1,44 @@
 
   <!DOCTYPE html>
-  <html lang="en"  >
+  <html lang="zh-CN"  >
   <head>
   <meta charset="utf-8">
   
+  <script src="https://www.googletagmanager.com/gtag/js?id=true"></script>
+  <script data-pjax>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+
+    gtag('js', new Date());
+    gtag('config', 'true');
+  </script>
+
 
   
+  <script>
+    (function(c,l,a,r,i,t,y){
+        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+    })(window, document, "clarity", "script", "true");
+  </script>
+
 
   
+  <script async src="https://hm.baidu.com/hm.js?true"></script>
+  <script data-pjax>
+    var _hmt = _hmt || [];
+    _hmt.push(["_trackPageview", location.pathname]);
+  </script>
+
 
   <script>window.REIMU_CONFIG = {};window.REIMU_CONFIG.icon_font = '4552607_tq6stt6tcg';window.REIMU_CONFIG.clipboard_tips = {"success":"复制成功(*^▽^*)","fail":"复制失败 (ﾟ⊿ﾟ)ﾂ","copyright":{"enable":true,"count":50,"content":"本文版权：本博客所有文章除特别声明外，均采用 BY-NC-SA 许可协议。转载请注明出处！"}};window.REIMU_CONFIG.outdate = {"enable":true,"daysAgo":180,"message":"本文最后更新于 {time}，请注意文中内容可能已经发生变化。"};window.REIMU_CONFIG.code_block = {"expand":true};</script>
   
   <title>
-    Archives |
+    归档 |
     
     BravBeter&#39;s Blog
   </title>
@@ -33,7 +59,7 @@
 <meta property="og:url" content="http://www.bravebeter.com/archives/index.html">
 <meta property="og:site_name" content="BravBeter&#39;s Blog">
 <meta property="og:description" content="创造有趣">
-<meta property="og:locale" content="en_US">
+<meta property="og:locale" content="zh_CN">
 <meta property="og:image" content="http://www.bravebeter.com/images/banner.webp">
 <meta property="article:author" content="BraveBeter">
 <meta property="article:tag" content="create something interesting">
@@ -81,7 +107,7 @@
           </svg>
         
       </div>
-      <div class="loading-word">少女祈祷中...</div>
+      <div class="loading-word">呼呼呼...</div>
     </div>
   </div>
   </div>
@@ -153,7 +179,7 @@
   </nav>
   <nav id="sub-nav">
     
-      <a id="nav-rss-link" class="nav-icon" href="/atom.xml" title="RSS Feed" target="_blank"></a>
+      <a id="nav-rss-link" class="nav-icon" href="/atom.xml" title="RSS 订阅" target="_blank"></a>
     
     
     
@@ -165,7 +191,7 @@
       
     </picture>
     
-      <img fetchpriority="high" src="/images/dongman.webp" alt="">
+      <img fetchpriority="high" src="/images/Ocean.webp" alt="">
     
   
   <div id="header-outer">
@@ -174,7 +200,7 @@
         
         
           <a href="/" id="logo">
-            <h1 data-aos="slide-up">Archives</h1>
+            <h1 data-aos="slide-up">归档</h1>
           </a>
         
       
@@ -188,7 +214,7 @@
   </div>
 </header>
 
-        <div id="content"  class="sidebar-right" >
+        <div id="content" class="sidebar-left"  >
           <aside id="sidebar">
   
     <div id="aplayer" theme="var(--color-link)" data-aos="fade-up"></div>
@@ -204,23 +230,19 @@
 </div>
 <div class="sidebar-state">
   <div class="sidebar-state-article">
-    <div>Posts</div>
+    <div>文章</div>
     <div class="sidebar-state-number">2</div>
   </div>
   <div class="sidebar-state-category">
-    <div>Categories</div>
+    <div>分类</div>
     <div class="sidebar-state-number">0</div>
   </div>
   <div class="sidebar-state-tag">
-    <div>Tags</div>
-    <div class="sidebar-state-number">0</div>
+    <div>标签</div>
+    <div class="sidebar-state-number">1</div>
   </div>
 </div>
 <div class="sidebar-social">
-  
-    <div class="icon-email sidebar-social-icon">
-      <a href=2801611461@qq.com itemprop="url" target="_blank" aria-label="email" rel="noopener external nofollow noreferrer"></a>
-    </div>
   
     <div class="icon-github sidebar-social-icon">
       <a href=https://github.com/Luanxiaorui itemprop="url" target="_blank" aria-label="github" rel="noopener external nofollow noreferrer"></a>
@@ -279,9 +301,9 @@
       
   <div class="widget-wrapper">
     <div class="widget-wrap" data-aos="fade-up">
-      <h3 class="widget-title">Archives</h3>
-      <div class="widget">
-        <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2025/01/">January 2025</a></li></ul>
+      <h3 class="widget-title">标签云</h3>
+      <div class="widget tagcloud">
+        <a href="/tags/%E7%AE%97%E6%B3%95/" style="font-size: 10px;">算法</a>
       </div>
     </div>
   </div>
@@ -291,7 +313,19 @@
       
   <div class="widget-wrapper">
     <div class="widget-wrap" data-aos="fade-up">
-      <h3 class="widget-title">Recent Posts</h3>
+      <h3 class="widget-title">归档</h3>
+      <div class="widget">
+        <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2025/01/">一月 2025</a></li></ul>
+      </div>
+    </div>
+  </div>
+
+
+    
+      
+  <div class="widget-wrapper">
+    <div class="widget-wrap" data-aos="fade-up">
+      <h3 class="widget-title">最新文章</h3>
       <div class="widget">
         <ul>
           
@@ -317,6 +351,10 @@
           <section id="main">
 <div class="archives-outer-wrap" data-aos="fade-up">
   <div class="tag-wrap">
+    
+      <div class="archives-tag-list-item" data-aos="zoom-in">
+        <a class="archives-tag-list-link" href="/tags/%E7%AE%97%E6%B3%95/">算法</a>
+      </div>
     
   </div>
   <div class="category-wrap">
@@ -386,7 +424,7 @@
     </div>
     
       <div>
-        Powered by&nbsp;<a href="https://hexo.io/" rel="noopener external nofollow noreferrer" target="_blank">Hexo</a>&nbsp;
+        基于&nbsp;<a href="https://hexo.io/" rel="noopener external nofollow noreferrer" target="_blank">Hexo</a>&nbsp;
         Theme.<a href="https://github.com/D-Sketon/hexo-theme-reimu" rel="noopener external nofollow noreferrer" target="_blank">Reimu</a>
       </div>
     
@@ -404,10 +442,10 @@
     
       <div>
         <span class="icon-eye"></span>
-        <span id="busuanzi_container_site_pv">Number of visits&nbsp;<span id="busuanzi_value_site_pv"></span></span>
+        <span id="busuanzi_container_site_pv">总访问量&nbsp;<span id="busuanzi_value_site_pv"></span></span>
         &nbsp;|&nbsp;
         <span class="icon-user"></span>
-        <span id="busuanzi_container_site_uv">Number of visitors&nbsp;<span id="busuanzi_value_site_uv"></span></span>
+        <span id="busuanzi_container_site_uv">总访客量&nbsp;<span id="busuanzi_value_site_uv"></span></span>
       </div>
     
   </div>
@@ -431,23 +469,19 @@
 </div>
 <div class="sidebar-state">
   <div class="sidebar-state-article">
-    <div>Posts</div>
+    <div>文章</div>
     <div class="sidebar-state-number">2</div>
   </div>
   <div class="sidebar-state-category">
-    <div>Categories</div>
+    <div>分类</div>
     <div class="sidebar-state-number">0</div>
   </div>
   <div class="sidebar-state-tag">
-    <div>Tags</div>
-    <div class="sidebar-state-number">0</div>
+    <div>标签</div>
+    <div class="sidebar-state-number">1</div>
   </div>
 </div>
 <div class="sidebar-social">
-  
-    <div class="icon-email sidebar-social-icon">
-      <a href=2801611461@qq.com itemprop="url" target="_blank" aria-label="email" rel="noopener external nofollow noreferrer"></a>
-    </div>
   
     <div class="icon-github sidebar-social-icon">
       <a href=https://github.com/Luanxiaorui itemprop="url" target="_blank" aria-label="github" rel="noopener external nofollow noreferrer"></a>

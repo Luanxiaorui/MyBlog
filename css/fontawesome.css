@@ -116,9 +116,6 @@
 .icon-github:before {
   content: "\f09b";
 }
-.icon-email:before {
-  content: "\f0e0";
-}
 .sidebar-btn-wrapper .sidebar-toc-btn:before {
   font-family: var(--font-icon);
   content: "\f0e8";
